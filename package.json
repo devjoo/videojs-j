@@ -44,7 +44,7 @@
   "devDependencies": {
     "@videojs/generator-helpers": "~1.0.0",
     "karma": "^4.0.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.15",
     "node-sass": "^4.5.3",
     "rollup": "1.1.0",
     "sinon": "^2.2.0",
@@ -78,6 +78,7 @@
   ],
   "dependencies": {
     "global": "^4.3.2",
+    "vast-client": "^2.5.0",
     "video.js": "^6 || ^7"
   },
   "generator-videojs-plugin": {

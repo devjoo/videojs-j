@@ -3,12 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Module Import Example</title>
-    <link href="http://vjs.zencdn.net/6.4.0/video-js.css" rel="stylesheet">
+    <!--<link href="http://vjs.zencdn.net/6.4.0/video-js.css" rel="stylesheet">-->
+
+    <!--<link rel="stylesheet" href="../../node_modules/video.js/dist/video-js.css">-->
+    <!--<link rel="stylesheet" href="../../dist/videojs-contrib-ads.css">-->
+    <link href="style.css" rel="stylesheet">
+    <link href="app.css" rel="stylesheet">
+
   </head>
   <body>
-    <h1>Module Import Example</h1>
+    <h1>genie Module import player</h1>
     <p>To run this example, follow the instructions in <code>entry.js</code>, then check your console. <code>player.ads</code> should have been logged out if the example was a success.</p>
-    <video id="player">
+    <video id="player" class="video-js vjs-default-skin">
       Video element is not supported by this browser.
     </video>
     <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
